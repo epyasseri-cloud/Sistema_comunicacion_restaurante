@@ -75,4 +75,50 @@ Proyecto integrador restaurante/
 - utils: nombres por accion corta y puntual.
 - view: nombres por modulo de trabajo dentro de cada rol.
 
+## Flujo colaborativo con Git
+
+Este flujo ayuda a que el equipo trabaje sin pisarse cambios en archivos compartidos.
+
+1. Antes de empezar, actualizar la rama local con `git pull origin main`.
+2. Crear o cambiar a la rama personal de trabajo.
+3. Hacer cambios pequenos y enfocados en el area asignada.
+4. Revisar `git status` antes de preparar el commit.
+5. Guardar cambios con un commit corto y claro.
+6. Subir la rama con `git push origin nombre-de-rama`.
+7. Integrar a `main` solo despues de revisar conflictos.
+
+## Plantilla rapida de trabajo
+
+### Para Diana
+
+```bash
+git checkout main
+git pull origin main
+git checkout -b feature/diana-funcionalidad
+# hacer cambios
+git status
+git add .
+git commit -m "feat: descripcion corta"
+git push origin feature/diana-funcionalidad
+```
+
+### Para Yasser
+
+```bash
+git checkout main
+git pull origin main
+git checkout -b feature/yasser-funcionalidad
+# hacer cambios
+git status
+git add .
+git commit -m "feat: descripcion corta"
+git push origin feature/yasser-funcionalidad
+```
+
+## Regla de seguridad antes de subir cambios
+
+1. Verificar que los archivos editados pertenecen al area asignada o fueron coordinados.
+2. Si se modifico una carpeta compartida, avisar antes de fusionar cambios.
+3. No subir cambios directos a `main` sin revisar primero el impacto en el otro integrante.
+
 

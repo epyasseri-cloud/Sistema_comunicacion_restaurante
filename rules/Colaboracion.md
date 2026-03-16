@@ -46,8 +46,8 @@ Las carpetas component, services, utils, config, rules y cualquier data comparti
 1. main queda solo para versiones estables.
 2. Cada integrante usa su propia rama de trabajo.
 3. Nombre sugerido de ramas:
-   - feature/integrante1-nombre
-   - feature/integrante2-nombre
+   - feature/diana-funcionalidad
+   - feature/yasser-funcionalidad
 4. Los cambios se integran a main solo despues de revisar conflictos.
 
 ## Regla para agentes de IA
